@@ -16,6 +16,8 @@
 		DCC639E8274D10FC004B2AB2 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC639E7274D10FC004B2AB2 /* TicTacToeTests.swift */; };
 		DCC639F2274D10FD004B2AB2 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC639F1274D10FD004B2AB2 /* TicTacToeUITests.swift */; };
 		DCC639F4274D10FD004B2AB2 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC639F3274D10FD004B2AB2 /* TicTacToeUITestsLaunchTests.swift */; };
+		DCC63A3D2758DDA6004B2AB2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC63A3C2758DDA6004B2AB2 /* Player.swift */; };
+		DCC63A3F2758FBB4004B2AB2 /* Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC63A3E2758FBB4004B2AB2 /* Squares.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DCC639ED274D10FC004B2AB2 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC639F1274D10FD004B2AB2 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		DCC639F3274D10FD004B2AB2 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCC63A3C2758DDA6004B2AB2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DCC63A3E2758FBB4004B2AB2 /* Squares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squares.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				DCC639D0274D10EC004B2AB2 /* AppDelegate.swift */,
 				DCC639D2274D10EC004B2AB2 /* SceneDelegate.swift */,
 				DCC639D4274D10EC004B2AB2 /* ViewController.swift */,
+				DCC63A3E2758FBB4004B2AB2 /* Squares.swift */,
+				DCC63A3C2758DDA6004B2AB2 /* Player.swift */,
 				DCC639D6274D10EC004B2AB2 /* Main.storyboard */,
 				DCC639D9274D10FB004B2AB2 /* Assets.xcassets */,
 				DCC639DB274D10FB004B2AB2 /* LaunchScreen.storyboard */,
@@ -258,7 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC63A3D2758DDA6004B2AB2 /* Player.swift in Sources */,
 				DCC639D5274D10EC004B2AB2 /* ViewController.swift in Sources */,
+				DCC63A3F2758FBB4004B2AB2 /* Squares.swift in Sources */,
 				DCC639D1274D10EC004B2AB2 /* AppDelegate.swift in Sources */,
 				DCC639D3274D10EC004B2AB2 /* SceneDelegate.swift in Sources */,
 			);

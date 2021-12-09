@@ -17,7 +17,6 @@
 		DCC639F2274D10FD004B2AB2 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC639F1274D10FD004B2AB2 /* TicTacToeUITests.swift */; };
 		DCC639F4274D10FD004B2AB2 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC639F3274D10FD004B2AB2 /* TicTacToeUITestsLaunchTests.swift */; };
 		DCC63A3D2758DDA6004B2AB2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC63A3C2758DDA6004B2AB2 /* Player.swift */; };
-		DCC63A3F2758FBB4004B2AB2 /* Squares.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC63A3E2758FBB4004B2AB2 /* Squares.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		DCC639F1274D10FD004B2AB2 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		DCC639F3274D10FD004B2AB2 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DCC63A3C2758DDA6004B2AB2 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		DCC63A3E2758FBB4004B2AB2 /* Squares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squares.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 				DCC639D0274D10EC004B2AB2 /* AppDelegate.swift */,
 				DCC639D2274D10EC004B2AB2 /* SceneDelegate.swift */,
 				DCC639D4274D10EC004B2AB2 /* ViewController.swift */,
-				DCC63A3E2758FBB4004B2AB2 /* Squares.swift */,
 				DCC63A3C2758DDA6004B2AB2 /* Player.swift */,
 				DCC639D6274D10EC004B2AB2 /* Main.storyboard */,
 				DCC639D9274D10FB004B2AB2 /* Assets.xcassets */,
@@ -266,7 +263,6 @@
 			files = (
 				DCC63A3D2758DDA6004B2AB2 /* Player.swift in Sources */,
 				DCC639D5274D10EC004B2AB2 /* ViewController.swift in Sources */,
-				DCC63A3F2758FBB4004B2AB2 /* Squares.swift in Sources */,
 				DCC639D1274D10EC004B2AB2 /* AppDelegate.swift in Sources */,
 				DCC639D3274D10EC004B2AB2 /* SceneDelegate.swift in Sources */,
 			);
@@ -461,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TicTacToe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.manneTicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,7 +486,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.TicTacToe;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.manneTicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
